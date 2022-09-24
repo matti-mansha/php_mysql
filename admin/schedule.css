@@ -1,0 +1,75 @@
+.schedule{
+    position: absolute;
+    top: 20%;
+    left: 70%;
+  }
+  .schedule h1{
+    margin-left: 10px;
+  }
+
+img{
+  height: 80%;
+  width: 25%;
+  position: absolute;
+  top:20%;
+  left:25%;
+}
+#source,#destination{
+  font-family: 'Raleway', sans-serif;
+  padding: 5px;
+  border-radius: 25px;
+  margin: 25px;
+  margin-left:0;
+  width: 100%;
+  background: #E7E7E7;
+  text-align: center;
+  border: 0;
+}
+.textbox input[type=time]{
+  font-family: 'Raleway', sans-serif;
+  width: 100%;
+  border-radius: 25px;
+  background: #E7E7E7;
+  text-align: center;
+  height: 15%;
+  margin-bottom: 20px;
+  padding: 5px;
+  border: 0;
+}
+input[type=integer]{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  background: #E7E7E7;
+  margin: 0 px 0;
+  border-radius: 25px;
+  width: 100%;
+  padding: 5px;
+  border: 0;
+}
+
+#submit{
+  color: #fff;
+  background: #A74FBC;
+  margin-left: 10px;
+  margin-top: 25px;
+  border: none;
+  border-radius: 25px;
+  width: 90%;
+  height: 30px;
+  transition: 1s ease;
+  font-family: 'Raleway', sans-serif;
+}
+#submit:hover{
+
+
+  background: #E7E7E7;
+  color: black;
+  border:1px solid ;
+}
+label{
+  font-family: 'Raleway', sans-serif;
+  /* padding:10px; */
+  text-align: center;
+  width: 100%;
+  
+}

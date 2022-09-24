@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Add Terminal</title>
+      <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@300&display=swap" rel="stylesheet">
+      <!-- fonts -->
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="terminal.css"> <!-- Add as option in Admins Dashboard Make it and Change it -->
+  </head>
+  <body>
+    <div class="pic">
+      <img src="Side.svg" alt="np">
+
+    </div>
+    <form class="signup" action="terminal_Add.php" method="post">
+      <h1>ADD TERMINAL</h1>
+      <div class="textbox">
+         <input type="text" placeholder="Terminal Name" name="terminalName" value="" required>
+      </div>
+
+      <div class="textbox">
+        <input type="text" placeholder="Terminal City" name="terminalCity" value="" required>
+      </div>
+
+      <div class="textbox">
+        <input type="text" placeholder="Terminal Address" name="terminalAddress" value="" required>
+      </div>
+
+      <div class="textbox">
+        <input type="text" placeholder="Terminal Phone" name="terminalPhone" value="" required>
+      </div>
+
+      <button class="btn" type="submit" name="terminal_add_button">Sub mit</button>
+    </form>
+    
+  </body>
+</html>

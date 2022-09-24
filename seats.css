@@ -1,0 +1,70 @@
+body{
+    height: 100%;
+    width: 100%;
+    min-height: 63vh;
+    background-image: url(pic/signup.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+
+#source,#destination{
+    padding: 5px ;
+    margin-bottom: 10px;
+}
+
+.textbox{
+    border-bottom: 2px solid #EEEEEE;
+    padding: 8px 0;
+    margin: 8px 0;
+    width: 90%;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  .textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    width: 80%;
+  
+  }
+
+  #login{
+    position: absolute;
+    left: 60%;
+    top: 10%;
+    background-color: white;
+    height: 80%;
+    width:30%;
+  
+  }
+  #login h1{
+
+    font-size: 30px;
+    border-bottom: 6px solid black;
+    width:40%;
+    padding:10px 0px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  
+  }
+  #login #submit{
+    width: 40%;
+    margin: 20px 0 0 30% ;
+    height: 9%;
+    background: none;
+    border: 3px solid black;
+    color: black;
+    border-radius: 50px;
+  }
+  
+  
+  #login #submit:hover{
+    background-color:black;
+    color: #fff;
+  
+    border: none;
+    transition: 1s;
+  
+  }
